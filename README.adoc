@@ -1,0 +1,13 @@
+= Spring Cloud Config Example Project
+Sample test project with spring cloud config to get intro stuff working
+
+Project includes the following components:
+* config server application - application that hosts config server
+* config client application - that connects to server application and reads values stored there
+* config folder - folder that includes yaml (or .properties) file(s) with values for config server to provide to other apps
+** Note: the config file is set up for a local file folder. To change this, adapt the value of `spring.cloud.config.server.git.uri` property in the config-server's application.properties file to point to another location.
+
+== Resources
+* https://spring.io/guides/gs/centralized-configuration/[Spring Guide^]
+* https://www.baeldung.com/spring-cloud-configuration[Blog post: Baeldung's Guide^]
+* https://www.youtube.com/watch?v=gb1i4WyWNK4[Video: JavaBrains's Walkthrough^]
