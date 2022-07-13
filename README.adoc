@@ -2,6 +2,7 @@
 Sample test project with spring cloud config to get intro stuff working
 
 Project includes the following components:
+
 * config server application - application that hosts config server
 * config client application - that connects to server application and reads values stored there
 * config folder - folder that includes yaml (or .properties) file(s) with values for config server to provide to other apps
